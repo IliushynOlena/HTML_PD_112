@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to CSS</title>
+    <style>
+/* CSS Selector:
+    type{
+        property:value;
+        property:value;
+        property:value;
+        .......
+} */
+    h1,h2{
+        background-color: darkblue;
+        color:white;       
+        padding: 16px;
+        border-radius: 8px;
+        box-shadow: 15px 8px 8px rgb(39, 27, 47);
+        border: 4px solid rgb(116, 213, 237);
+    }
+    h2{
+        background-color: yellow;
+    }
+    h1,h2,h3{
+        text-align: center;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 130%;
+    }
+    code{
+        background-color: black;
+        color: white;
+        font-size: 22px;
+        font-family: monospace;
+        padding: 4px;
+        border-radius: 4px;
+        line-height: 35px;
+    }
+    mark{
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 10px;
+        line-height: 150%;
+        background-color: lightblue;
+    }
+    .main-word
+    {
+        color: rgb(121, 119, 119);
+        font-size: 22px;
+        border: 1px solid black;
+        padding: 2px;
+    }
+    .styled
+    {
+        text-decoration: underline;
+        font-weight: normal;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .serif-font
+    {
+        font-family: serif;
+    }
+    .sans-serif-font
+    {
+        font-family: sans-serif;
+    }
+    .monospase-font
+    {
+        font-family: monospace;
+    }
+    .cursive-font
+    {
+        font-family: cursive;
+    }
+    .fantasy-font
+    {
+        font-family: fantasy;
+    }
+    #main-title{
+        background-color: aquamarine;
+        color: black;
+        border-color: black;
+    }
+    .first-level{
+        color: rgb(84, 81, 81);
+    }
+    .sec-level{
+        color: grey;
+        text-decoration: underline;
+    }
+
+    </style>
+</head>
+<body>
+    <h1 id="main-title">Intro to <abbr title="Cascading Style to CSS">CSS</abbr> </h1>
+    <p> <strong class="main-word">CSS is a special style </strong>  language used to describe the appearance of pages. 
+        <!-- The pages themselves are written in data markup languages.  -->
+        CSS is the core technology of the World Wide Web, along with 
+        <strong class="styled" >HTML and JavaScript. </strong>  
+        <span class="first-level">A dignissimo</span> 
+        <span class="sec-level"> sunt dolorum minima fugiat iusto eveniet maxime voluptatibus </span>
+        quo asperiores, earum quae distinctio ducimus nemo assumenda 
+        architecto exercitationem cupiditate dolores, possimus odio. 
+        Nam perferendis necessitatibus deserunt aperiam voluptates 
+        nesciunt sequi delectus aliquid atque, veniam amet? Autem 
+        voluptatem sunt aspernatur porro
+    </p>
+    <hr>
+    <p>H<sub>2</sub>SO<sub>4</sub> <br> 2<sup>3</sup>=8</p>
+        <h2 style="background-color: blue;color:white;text-align:center">Inline styles</h2>
+        <p style="color: aqua;font-weight:700">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ipsam exercitationem illum maiores, enim totam laboriosam 
+            <code>int b = 25;</code>
+            <mark>nisi libero inventore placeat</mark> nisi libero inventore placeat illo fugiat adipisci voluptas 
+            <mark>nisi libero inventore placeat</mark> nisi libero inventore placeat illo fugiat adipisci voluptas 
+            <mark>nisi libero inventore placeat</mark> nisi libero inventore placeat illo fugiat adipisci voluptas 
+            <mark>nisi libero inventore placeat</mark> nisi libero inventore placeat illo fugiat adipisci voluptas 
+            praesentium similique cum! Harum sit molestiae unde.</p>
+        <h2>Styling using CSS Selectors</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis
+             similique veniam fugit expedita quis, numquam enim beatae nesciunt 
+             fugiat odit animi, alias, corrupti nemo eaque totam dolores harum 
+             laborum quae est officia ullam aliquid tempora cum? Cumque, ipsam 
+             quaerat!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, voluptas 
+        ipsam delectus velit perferendis nihil nisi animi unde vitae! 
+        Exercitationem? <br>
+    create variable : <code>int a = 10;</code> <br>
+    console output: <code>Console.WriteLine();</code>
+    </p>  
+    <hr>
+        <h2>Standart Font style</h2>
+        <h2>Serif font</h2>  
+        <p class="serif-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Debitis placeat sequi ipsam voluptatem eius qui dolores 
+            delectus adipisci a accusamus?</p>        
+        <h2>Sans Serif font</h2>  
+        <p class="sans-serif-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Debitis placeat sequi ipsam voluptatem eius qui dolores 
+            delectus adipisci a accusamus?</p>        
+        <h2>Monospace font</h2>  
+        <p class="monospase-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Debitis placeat sequi ipsam voluptatem eius qui dolores 
+            delectus adipisci a accusamus?</p>        
+        <h2>Cursive font</h2>  
+        <p class="cursive-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Debitis placeat sequi ipsam voluptatem eius qui dolores 
+            delectus adipisci a accusamus?</p>        
+        <h2>Fantasy font</h2>  
+        <p class="fantasy-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Debitis placeat sequi ipsam voluptatem eius qui dolores 
+            delectus adipisci a accusamus?</p>   
+        <h3>Hello world</h3>     
+
+</body>
+</html>
